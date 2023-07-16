@@ -166,6 +166,7 @@ nav li a{
     }
     .facts-card-container{
         flex-direction: column;
+        gap: 30px;
         width: 80%;
     }
     .facts-card-container .card{
@@ -198,12 +199,16 @@ nav li a{
         margin: 30px 30px;
         flex-direction: column;
     }
+    /* Facts Section Start Here  */
     .facts{
         padding: 30px;
-        width: 100%;
+        width: 90%;
     }
     .facts-card-container{
-        width: 100%;
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
     }
     .facts-card-container .card{
         padding: 20px;
