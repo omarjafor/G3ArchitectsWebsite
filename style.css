@@ -47,7 +47,7 @@ nav li a{
     padding: 20px;
     margin-top: 30px;
 }
-.banner-description{
+.description{
     color: #727272;
     font-size: 16px;
     line-height: 26px;
@@ -92,8 +92,12 @@ nav li a{
     color: #FF900E;
     font-weight: 700;
 }
+.team-description{
+    margin-top: 24px;
+}
 /* Responsive Website Design  */
 @media screen and (max-width: 576px) {
+    /* Header Navbar Banner Section  */
     header{
         padding: 20px;
     }
@@ -106,14 +110,21 @@ nav li a{
     nav li{
         font-size: 1.2rem;
     }
-    .banner-content{
-        max-width: 90%;
-    }
     .banner-title{
         font-size: 3rem;
     }
+    /* Teams Section  */
+    .team-container{
+        margin: 30px 30px;
+        flex-direction: column;
+    }
+    .team-images{
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+    }
 }
 @media screen and (min-width: 577px) and (max-width: 960px) {
+    /* Header Navbar Banner Section  */
     header{
         padding: 50px;
     }
@@ -131,5 +142,11 @@ nav li a{
     }
     .banner-title{
         font-size: 3rem;
+    }
+    /* Teams Section  */
+    .team-container{
+        width: auto;
+        margin: 30px 30px;
+        flex-direction: column;
     }
 }
