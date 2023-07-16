@@ -50,6 +50,7 @@ nav li a{
 .description{
     color: #727272;
     font-size: 16px;
+    font-weight: 400;
     line-height: 26px;
 }
 .btn-primary{
@@ -95,6 +96,37 @@ nav li a{
 .team-description{
     margin-top: 24px;
 }
+/* Facts Section Start Here  */
+.facts{
+    padding: 130px 230px;
+}
+.fact-title{
+    margin-bottom: 24px;
+}
+.fact-description{
+    width: 542px;
+    margin-bottom: 100px;
+}
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.facts-card-container .card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 36px;
+}
+.facts-card-container .card-stats{
+    font-size: 2.8rem;
+    color: #424242;
+    margin: 10px 0px 20px 0px;
+}
+.facts-card-container .card-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
 /* Responsive Website Design  */
 @media screen and (max-width: 576px) {
     /* Header Navbar Banner Section  */
@@ -115,12 +147,29 @@ nav li a{
     }
     /* Teams Section  */
     .team-container{
+        width: 90%;
         margin: 30px 30px;
         flex-direction: column;
     }
     .team-images{
         grid-template-columns: 1fr;
         gap: 1.2rem;
+    }
+    /* Facts Section Start Here  */
+    .facts{
+        padding: 30px;
+        width: 90%;
+    }
+    .fact-description{
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    .facts-card-container{
+        flex-direction: column;
+        width: 80%;
+    }
+    .facts-card-container .card{
+        padding: 20px;
     }
 }
 @media screen and (min-width: 577px) and (max-width: 960px) {
@@ -149,4 +198,17 @@ nav li a{
         margin: 30px 30px;
         flex-direction: column;
     }
+    .facts{
+        padding: 30px;
+        width: 100%;
+    }
+    .facts-card-container{
+        width: 100%;
+    }
+    .facts-card-container .card{
+        padding: 20px;
+    }
+}
+.hide{
+    display: none;
 }
