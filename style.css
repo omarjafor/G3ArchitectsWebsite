@@ -66,6 +66,32 @@ nav li a{
 .banner-img{
     width: 100%;
 }
+/* team style start here  */
+.team-container{
+    margin: 130px 300px;
+    display: flex;
+    align-items: center;
+    gap: 75px;
+    background: #FFF;
+}
+.team-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.team-title{
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+}
+.team-title .ofour{
+    color: #131313;
+    font-weight: 700;
+}
+.team-title .features{
+    color: #FF900E;
+    font-weight: 700;
+}
 /* Responsive Website Design  */
 @media screen and (max-width: 576px) {
     header{
