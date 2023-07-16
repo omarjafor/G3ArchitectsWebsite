@@ -87,3 +87,23 @@ nav li a{
         font-size: 3rem;
     }
 }
+@media screen and (min-width: 577px) and (max-width: 960px) {
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav > ul{
+        padding-top: 30px;
+    }
+    nav li{
+        font-size: 1.3rem;
+    }
+    .banner-content{
+        max-width: 100%;
+    }
+    .banner-title{
+        font-size: 3rem;
+    }
+}
