@@ -96,6 +96,64 @@ nav li a{
 .team-description{
     margin-top: 24px;
 }
+/* Features Section Start Here  */
+.features{
+    padding: 100px 230px;
+    display: flex;
+    gap: 146px;
+}
+.feature-title{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+    margin-bottom: 24px;
+}
+.feature-description{
+    color: #727272;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+.feature-content .card{
+    padding: 30px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.308);
+    margin-bottom: 20px;
+}
+.feature-content .card .card-title{
+    color:#131313;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.feature-content .card .card-description{
+    color: #727272;
+    font-size: 16px;
+    line-height: 26px;
+}
+.ten-years-badge{
+    color: #FFF;
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 40px;
+    cursor: pointer;
+    width: 250px;
+    text-align: center;
+}
+.ten-years-badge h2{
+    margin: 0px;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.ten-years-badge small{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 40px;
+}
 /* Facts Section Start Here  */
 .facts{
     padding: 130px 230px;
@@ -242,6 +300,20 @@ footer > p{
     }
     .facts-card-container .card{
         padding: 20px;
+    }
+    /* Sponsor section start here  */
+    .sponsor-img-container{
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+    .sponsor-img-container img{
+        width: 165px;
+    }
+    /* footer section start here  */
+    footer, .description{
+        padding: 50px;
+        font-size: 22px;
     }
 }
 .hide{
