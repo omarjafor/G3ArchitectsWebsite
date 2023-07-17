@@ -224,8 +224,9 @@ footer > p{
     }
     /* Teams Section  */
     .team-container{
+        padding: 30px 0px 30px 20px;
         width: 90%;
-        margin: 30px 30px;
+        margin: 30px 0px;
         flex-direction: column;
     }
     .team-images{
@@ -234,21 +235,20 @@ footer > p{
     }
     /* Features Section Start Here  */
     .features{
-        padding: 30px;
+        padding: 30px 0px 30px 10px;
         flex-direction: column;
     }
     .feature-img img{
-        padding: 30px;
+        padding: 30px 0px;
         width: 90%;
     }
     .ten-years-badge{
-        padding: 30px;
         width: 230px;
         position: static;
     }
     /* Facts Section Start Here  */
     .facts{
-        padding: 30px;
+        padding: 30px 0px 30px 0px;
         width: 90%;
     }
     .fact-description{
@@ -261,7 +261,7 @@ footer > p{
         width: 80%;
     }
     .facts-card-container .card{
-        padding: 20px;
+        margin-left: 20px;
     }
     /* Sponsor section start here  */
     .sponsor-img-container{
@@ -345,4 +345,7 @@ footer > p{
         padding: 50px;
         font-size: 22px;
     }
+}
+.hide{
+    display: none;
 }
